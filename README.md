@@ -59,7 +59,7 @@ dependencyResolutionManagement {
 
 // build.gradle.kts
 dependencies {
-    implementation("com.github.smartago:tv-focus-kit:v1.0.1")
+    implementation("com.github.smartago:tv-focus-kit:1.0.1")
 }
 ```
 
