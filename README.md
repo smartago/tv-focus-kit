@@ -59,11 +59,13 @@ dependencyResolutionManagement {
 
 // build.gradle.kts
 dependencies {
-    implementation("com.github.smartago:tv-focus-kit:v1.0.0")
+    implementation("com.github.smartago:tv-focus-kit:v1.0.1")
 }
 ```
 
 Requirements: minSdk 23, Compose BOM 2024.12 or newer. No other dependencies.
+
+Building the repo itself needs JDK 17+ on `JAVA_HOME` (Gradle 9.4, AGP 9.2).
 
 ## Use
 

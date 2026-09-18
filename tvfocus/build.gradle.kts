@@ -33,7 +33,7 @@ afterEvaluate {
                 from(components["release"])
                 groupId = "com.github.smartago"
                 artifactId = "tv-focus-kit"
-                version = project.findProperty("version")?.toString()?.takeIf { it != "unspecified" } ?: "v1.0.0"
+                version = project.findProperty("version")?.toString()?.takeIf { it != "unspecified" } ?: "v1.0.1"
             }
         }
     }
